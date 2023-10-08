@@ -38,9 +38,6 @@ describe('AtendimentoComponent', () => {
   //   expect(result).toBe('Sala não encontrada');
   // });
 
-
-
-
   // it('deve verificar se o erro correspondente está sendo retornado para um predio inválido', () => {
   //   const index = 15;
   //   const result = component.mostrarPredio(index);
@@ -110,10 +107,64 @@ describe('AtendimentoComponent', () => {
   //   expect(result).toBe('Professor não encontrado');
   // });
   
-  // Add more test cases for mostrarNome as needed
-
-
-
-
+  //it('should return Horário não encontrado for invalid index -1', () => {
+   // const invalidIndex = -1;
+   // const result = component.mostrarHorario(invalidIndex);
+   // expect(result).toBe('Horário não encontrado');
+  //});
+  
+  //it('should return Horário está fora do intervalo permitido for invalid index 1', () => {
+  //  const invalidIndex = 1;
+  //  const result = component.mostrarHorario(invalidIndex);
+   // expect(result).toBe('Horário está fora do intervalo permitido');
+  //});
+  
+  //it('should return Período não encontrado for invalid index 5', () => {
+  //  const invalidIndex = 5;
+  //  const result = component.mostrarPeriodo(invalidIndex);
+  //  expect(result).toBe('Período não encontrado');
+  //});
+  
+  //it('should return Sala não encontrada for invalid index 99', () => {
+  //  const invalidIndex = 99;
+  //  const result = component.mostrarSala(invalidIndex);
+  //  expect(result).toBe('Sala não encontrada');
+  //});
+  
+ // it('should return Prédio não encontrado for invalid index -5', () => {
+ //   const invalidIndex = -5;
+ //   const result = component.mostrarPredio(invalidIndex);
+//  expect(result).toBe('Prédio não encontrado');
+//  });
+  
+ // it('should return Horário não encontrado for invalid index 10', () => {
+ //   const invalidIndex = 10;
+ //   const result = component.mostrarHorario(invalidIndex);
+ //   expect(result).toBe('Horário não encontrado');
+ // });
+  
+ // it('should return Professor não encontrado for invalid index 8', () => {
+ //   const invalidIndex = 8;
+ //   const result = component.mostrarNome(invalidIndex);
+ //   expect(result).toBe('Professor não encontrado');
+ // });
+  
+ // it('should return integral for valid index 4', () => {
+ //   const validIndex = 4;
+ //   const result = component.mostrarPeriodo(validIndex);
+ //   expect(result).toBe('integral');
+ // });
+  
+ // it('should return 6 for valid index 2', () => {
+ //   const validIndex = 2;
+ //   const result = component.mostrarSala(validIndex);
+ //   expect(result).toBe(6);
+ // });
+  
+ // it('should return 1 for valid index 5', () => {
+ //   const validIndex = 5;
+ //   const result = component.mostrarSala(validIndex);
+ //   expect(result).toBe(1);
+ // });
 
 });
