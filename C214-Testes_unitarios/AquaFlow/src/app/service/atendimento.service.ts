@@ -13,6 +13,7 @@ export class AtendimentoService {
   constructor(private http: HttpClient) { }
 
   getProfessorData(): Observable<any> {
+    console.log('Fazendo solicitação HTTP para:', this.mockUrl);
     return this.http.get(this.mockUrl);
   }
 }

@@ -15,6 +15,22 @@
       "periodo": "manha",
       "salaDeAtendimento": -3,
       "predio": 0
+    },
+    {
+      "ID": 2,
+      "nomeDoProfessor": "Rafael Lima",
+      "horarioDeAtendimento": { "hours": 14, "minutes": 30 },
+      "periodo": "madrugada",
+      "salaDeAtendimento": 6,
+      "predio": 2
+    },
+    {
+      "ID": 3,
+      "nomeDoProfessor": "Jkbsdgsusg",
+      "horarioDeAtendimento": { "hours": 9, "minutes": 30 },
+      "periodo": "noturno",
+      "salaDeAtendimento": 3,
+      "predio": 1
     }
 
   ]
