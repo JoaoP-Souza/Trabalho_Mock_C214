@@ -97,7 +97,7 @@ describe('AtendimentoComponent', () => {
   // });
 
   // it('deve verificar se o erro correspondente está sendo retornado para uma sala inexistente', () => {
-  //   const index = 10;
+  //   const index = 99;
   //   const result = component.mostrarSala(index);
   //   expect(result).toBe('Sala não encontrada');
   // });
