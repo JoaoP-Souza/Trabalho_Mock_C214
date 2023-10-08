@@ -29,6 +29,8 @@ describe('AtendimentoComponent', () => {
     const result = component.mostrarNome(invalidIndex);
     expect(result).toBe('Professor não encontrado');
   });
+
+  
   // it('deve verificar se o erro correspondente está sendo retornado para uma sala inválida', () => {
   //   const index = 1;
   //   const result = component.mostrarSala(3);
