@@ -99,8 +99,6 @@ if (this.professors[i].salaDeAtendimento <= 0 || this.professors[i].salaDeAtendi
     }
   }
   
-
-
   // private updateImages() {
   //   // Assuming you want to calculate an image based on sensor data
   //   console.log( this.vazoes ); // pegar o index e fazer .valor
