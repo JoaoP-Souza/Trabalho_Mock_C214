@@ -168,44 +168,27 @@ if (this.professors[i].salaDeAtendimento <= 0 || this.professors[i].salaDeAtendi
   }
   
   mostrarPredio(i: number) {
-    // console.log(i);
+<<<<<<< HEAD
 
+=======
+>>>>>>> e5c7a39a23ff565e0e9800acbad35986a86d2633
     if (i < 0 || i >= this.professors.length) {
       return "Prédio não encontrado";
     } else {
-      if (this.professors[i].predio == null) { 
-        return "Prédio não encontrado";
+      const sala = this.professors[i].salaDeAtendimento;
+  
+      if (sala >= 1 && sala <= 5) {
+        return 1;
+      } else if (sala >= 6 && sala <= 10) {
+        return 2;
       } else {
-        return this.professors[i].predio;
+        // Defina um valor padrão ou lógica de tratamento para outros casos
+        return "Prédio não encontrado";
       }
     }
   }
+  
 
-
-  // private updateImages() {
-  //   // Assuming you want to calculate an image based on sensor data
-  //   console.log( this.vazoes ); // pegar o index e fazer .valor
-
-  //   for (let v of this.vazoes) {
-  //     if (v.valor <= 100) {
-  //       v.imageUrl = 'assets/images/pipe-leak-v3.png'; // Display Image 1
-  //       v.status = 'Há um problema com o encanamento neste sensor!';
-  //     } else {
-  //       v.imageUrl = 'assets/images/pipe-normal-v3.png'; // Display Image 2
-  //       v.status = 'Não há problemas com o encanamento neste sensor!';
-  //     }
-  //   }
-  // }
-
-
-
-  //     openModal(): void {
-  //       // Set the width and height for the modal
-  //       const dialogConfig = new MatDialogConfig();
-  //       dialogConfig.width = '500px';
-  //       dialogConfig.height = '300px';
-  //       const dialogRef = this.dialog.open(DisplayModalComponent, dialogConfig);
-  //     }
 
   }
 

@@ -8,8 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start-json-server": "json-server --watch atendimentos_professores.json --port 3000"
-
-
   },
   "private": true,
   "dependencies": {
