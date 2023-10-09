@@ -48,6 +48,42 @@ describe('AtendimentoComponent', () => {
   //   expect(result).toBe('Prédio não encontrado');
   // });
 
+  it('deve verificar se o nome do professor correspondente esta sendo retornado corretamente', () => {
+    const index = 0;
+    const result = component.mostrarNome(index);
+    expect(result).toBe('Ana Silvia');
+  });
+
+  it('deve verificar se o erro correspondente está sendo retornado para um professor não existente', () => {
+    const index = 3;
+    const result = component.mostrarNome(index);
+    expect(result).toBe('Professor não encontrado');
+  });
+
+  it('deve verificar se o erro correspondente está sendo retornado para um periodo invalido', () => {
+    const index = 2;
+    const result = component.mostrarPredio(index);
+    expect(result).toBe('Período não encontrado');
+  });
+
+  it('deve verificar se o periodo de atendimento esta sendo retornado corretamente', () => {
+    const index = 0;
+    const result = component.mostrarPeriodo(index);
+    expect(result).toBe('integral');
+  });
+
+  it('deve verificar se o periodo de atendimento esta sendo retornado corretamente', () => {
+    const index = 0;
+    const result = component.mostrarPeriodo(index);
+    expect(result).toBe('integral');
+  });
+
+  it('deve verificar se a sala de atendimento esta sendo retornada corretamente', () => {
+    const index = 0;
+    const result = component.mostrarSala(index);
+    expect(result).toBe(4);
+  });
+
 
 
 
