@@ -26,16 +26,18 @@ describe('AtendimentoComponent', () => {
 
 
   it('should return Professor não encontrado for invalid index', () => {
-    const invalidIndex = -2;
+    const invalidIndex = -2000;
     const result = component.mostrarNome(invalidIndex);
     expect(result).toBe('Professor não encontrado');
+
   });
-  // it('deve verificar se o erro correspondente está sendo retornado para uma sala inválida', () => {
-  //   const index = 1;
-  //   const result = component.mostrarSala(3);
-  //   console.log(result);
-  //   expect(result).toBe('Sala não encontrada');
-  // });
+
+  it('deve verificar se o erro correspondente está sendo retornado para uma sala inválida', () => {
+    const index = 1;
+    const result = component.mostrarSala(3);
+    console.log(result);
+    expect(result).toBe('Sala não encontrada');
+  });
 
 
 

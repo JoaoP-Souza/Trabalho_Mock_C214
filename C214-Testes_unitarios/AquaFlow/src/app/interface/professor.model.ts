@@ -7,6 +7,6 @@ export interface Professor {
     };
     periodo: string;
     salaDeAtendimento: number;
-    predio: string;
+    predio: [];
   }
   
