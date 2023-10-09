@@ -1,0 +1,165 @@
+{
+  "atendimentos_professores": [
+    {
+      "ID": 0,
+      "nomeDoProfessor": "Ana Silva",
+      "horarioDeAtendimento": { "hours": 10, "minutes": 30 },
+      "periodo": "integral",
+      "salaDeAtendimento": 4,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 1,
+      "nomeDoProfessor": "Carlos Oliveira",
+      "horarioDeAtendimento": { "hours": 13, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": 7,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 2,
+      "nomeDoProfessor": "Maria Santos",
+      "horarioDeAtendimento": { "hours": 14, "minutes": 45 },
+      "periodo": "desnatado",
+      "salaDeAtendimento": 7,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 3,
+      "nomeDoProfessor": "João Souza",
+      "horarioDeAtendimento": { "hours": 9, "minutes": 15 },
+      "periodo": "integral",
+      "salaDeAtendimento": 2,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 4,
+      "nomeDoProfessor": "Isabel Silva",
+      "horarioDeAtendimento": { "hours": 13, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": 5,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 5,
+      "nomeDoProfessor": "Luís Fernandes",
+      "horarioDeAtendimento": { "hours": 11, "minutes": 30 },
+      "periodo": "integral",
+      "salaDeAtendimento": 1,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 6,
+      "nomeDoProfessor": "Marta Costa",
+      "horarioDeAtendimento": { "hours": 16, "minutes": 15 },
+      "periodo": "integral",
+      "salaDeAtendimento": 4,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 7,
+      "nomeDoProfessor": "Pedro Rocha",
+      "horarioDeAtendimento": { "hours": 9, "minutes": 45 },
+      "periodo": "integral",
+      "salaDeAtendimento": 24,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 8,
+      "nomeDoProfessor": "Sofia Ferreira",
+      "horarioDeAtendimento": { "hours": 14, "minutes": 30 },
+      "periodo": "integral",
+      "salaDeAtendimento": 8,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 9,
+      "nomeDoProfessor": "Rui Santos",
+      "horarioDeAtendimento": { "hours": 12, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": 9,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 10,
+      "nomeDoProfessor": "Ana Silva",
+      "horarioDeAtendimento": { "hours": 10, "minutes": 30 },
+      "periodo": "integral",
+      "salaDeAtendimento": 4,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 11,
+      "nomeDoProfessor": "Carlos Oliveira",
+      "horarioDeAtendimento": { "hours": 14, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": -3,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 12,
+      "nomeDoProfessor": "",
+      "horarioDeAtendimento": { "hours": 14, "minutes": 45 },
+      "periodo": "integral",
+      "salaDeAtendimento": 7,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 13,
+      "nomeDoProfessor": "João Souza",
+      "horarioDeAtendimento": { "hours": 9, "minutes": 15 },
+      "periodo": "integral",
+      "salaDeAtendimento": 2,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 14,
+      "nomeDoProfessor": "",
+      "horarioDeAtendimento": { "hours": 13, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": 5,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 15,
+      "nomeDoProfessor": "Luís Fernandes",
+      "horarioDeAtendimento": { "hours": 11, "minutes": 30 },
+      "periodo": "integral",
+      "salaDeAtendimento": 1,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 16,
+      "nomeDoProfessor": "Marta Costa",
+      "horarioDeAtendimento": { "hours": 16, "minutes": 15 },
+      "periodo": "integral",
+      "salaDeAtendimento": 6,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 17,
+      "nomeDoProfessor": "Pedro Rocha",
+      "horarioDeAtendimento": { "hours": 9, "minutes": 45 },
+      "periodo": "integral",
+      "salaDeAtendimento": 2077,
+      "predio": [1,2 , 3, 4, 6]
+    },
+    {
+      "ID": 18,
+      "nomeDoProfessor": "Sofia Ferreira",
+      "horarioDeAtendimento": { "hours": 23, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": 8,
+      "predio": [1, 2, 3, 4, 6]
+    },
+    {
+      "ID": 19,
+      "nomeDoProfessor": "",
+      "horarioDeAtendimento": { "hours": 12, "minutes": 0 },
+      "periodo": "integral",
+      "salaDeAtendimento": 9,
+      "predio": [1, 2, 3, 4, 6]
+    }
+
+  ]
+}
