@@ -166,29 +166,5 @@ if (this.professors[i].salaDeAtendimento <= 0 || this.professors[i].salaDeAtendi
       }
     }
   }
-  
-  mostrarPredio(i: number) {
-<<<<<<< HEAD
-
-=======
->>>>>>> e5c7a39a23ff565e0e9800acbad35986a86d2633
-    if (i < 0 || i >= this.professors.length) {
-      return "Prédio não encontrado";
-    } else {
-      const sala = this.professors[i].salaDeAtendimento;
-  
-      if (sala >= 1 && sala <= 5) {
-        return 1;
-      } else if (sala >= 6 && sala <= 10) {
-        return 2;
-      } else {
-        // Defina um valor padrão ou lógica de tratamento para outros casos
-        return "Prédio não encontrado";
-      }
-    }
-  }
-  
-
-
-  }
+}
 
