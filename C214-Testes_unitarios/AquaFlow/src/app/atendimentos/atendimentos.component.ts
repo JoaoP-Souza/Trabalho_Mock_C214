@@ -149,7 +149,7 @@ export class AtendimentoComponent implements OnInit{
     }
   }
   
-  mostrarSala(i: number) {
+  mostrarPredio(i: number) {
     // mostra a sala do professor no índice do array
     // console.log(i);
     // console.log(this.professors.length);
@@ -161,8 +161,26 @@ if (this.professors[i].salaDeAtendimento <= 0 || this.professors[i].salaDeAtendi
         return "Sala não encontrada";
       
       } else {
-        console.log(this.professors[i].salaDeAtendimento);
-        return this.professors[i].salaDeAtendimento;
+        if(this.professors[i].salaDeAtendimento <=5){
+          this.professors[i].predio ==1;
+          return this.professors[i].salaDeAtendimento;
+        }
+        if(this.professors[i].salaDeAtendimento <=10 && this.professors[i].salaDeAtendimento >5){
+          this.professors[i].predio ==2;
+          return this.professors[i].salaDeAtendimento;
+        }
+        if(this.professors[i].salaDeAtendimento <=15 && this.professors[i].salaDeAtendimento >10){
+          this.professors[i].predio ==3;
+          return this.professors[i].salaDeAtendimento;
+        }
+        if(this.professors[i].salaDeAtendimento <=20 && this.professors[i].salaDeAtendimento >15){ 
+          this.professors[i].predio ==4;
+          return this.professors[i].salaDeAtendimento;
+        }
+        if(this.professors[i].salaDeAtendimento <=25 && this.professors[i].salaDeAtendimento >20){
+          this.professors[i].predio ==6;
+          return this.professors[i].salaDeAtendimento;
+        }
       }
     }
   }
