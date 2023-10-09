@@ -1,10 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { AtendimentoComponent } from './atendimentos.component';
-import { AtendimentoService } from '../service/atendimento.service';
-import { Professor } from '../interface/professor.model';
-import { MatDialogModule } from '@angular/material/dialog';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatDialogModule } from '@angular/material/dialog';
+import { AtendimentoService } from '../service/atendimento.service';
+import { AtendimentoComponent } from './atendimentos.component';
 
 describe('AtendimentoComponent', () => {
   let component: AtendimentoComponent;
@@ -83,9 +82,31 @@ describe('AtendimentoComponent', () => {
     const result = component.mostrarSala(index);
     expect(result).toBe(4);
   });
+  
+it('deve verificar se a sala de atendimento está sendo retornada corretamente para outra sala', () => {
+    const index = 3;
+    const result = component.mostrarSala(index);
+    expect(result).toBe(3);
+  });
 
+  
+  it('deve verificar se o erro correspondente está sendo retornado para um período inexistente', () => {
+    const index = 5;
+    const result = component.mostrarPeriodo(index);
+    expect(result).toBe('Período não encontrado');
+  });
 
-
+  it('deve verificar se o erro correspondente está sendo retornado para uma sala inexistente', () => {
+    const index = 99;
+    const result = component.mostrarSala(index);
+    expect(result).toBe('Sala não encontrada');
+  });
+  
+  it('deve verificar se o erro correspondente está sendo retornado para um professor inexistente', () => {
+    const index = 5;
+    const result = component.mostrarNome(index);
+    expect(result).toBe('Professor não encontrado');
+  });
 
   // Add more test cases for mostrarNome as needed
 });
