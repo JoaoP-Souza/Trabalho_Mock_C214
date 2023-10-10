@@ -1,5 +1,7 @@
 # Trabalho_Mock_C214
 
+A PASTA CORRETA É A ListaAtendimentos!!
+
 Ao clonar, abra o terminal na aba AquaFlow e insira os seguintes comandos
 
 npm i
